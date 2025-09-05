@@ -39,3 +39,6 @@ model = TransformerMultiOutputNILM(...)
 ## Evaluation
 
 Dans evaluate.py, définir MODEL_PATH selon le modèle utilisé
+
+## Dataset 
+Pour le dataset complet, téléchargez-le ici : [Google Drive] (https://drive.google.com/drive/folders/1ceKvKgfcXC0dNSPwXUrFBPwvU_jCzuHD?usp=sharing)
