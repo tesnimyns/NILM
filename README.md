@@ -1,5 +1,5 @@
 # NILM
-
+---
 ## Description
 
 Ce projet implémente la désagrégation non intrusive de la consommation électrique (NILM) pour prédire la consommation de plusieurs appareils à partir de la consommation totale.  
@@ -9,8 +9,6 @@ Deux modèles sont disponibles :
 - **TransformerMultiOutputNILM** : Transformer standard multi-sorties.
 
 Le projet a été testé sur un dataset industriel avec **3 channels**.
-
----
 
 ## 📂 Project Structure
 
@@ -23,8 +21,6 @@ src/
 ├── requirements.txt        # Liste des dépendances Python nécessaires au projet
 └── train.py                # Script d'entraînement du modèle (boucle d'entraînement, journalisation, sauvegarde des checkpoints)
 
-
- 
 
 ## Installation
 
@@ -56,5 +52,6 @@ Dans evaluate.py, définir MODEL_PATH selon le modèle utilisé
 
 ## Dataset 
 Pour le dataset complet, téléchargez-le ici : [Google Drive] (https://drive.google.com/drive/folders/1ceKvKgfcXC0dNSPwXUrFBPwvU_jCzuHD?usp=sharing)
+
 
 
