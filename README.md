@@ -13,13 +13,16 @@ Le projet a été testé sur un dataset industriel avec **3 channels**.
 ---
 
 ## 📂 Project Structure
+
+```bash
 src/
   ├── dataset.py            # Gère le chargement, le prétraitement des données et la création des datasets/dataloaders PyTorch
   ├── energformer.py        # Implémente l'architecture du modèle Energyformer
   ├── model_nilm.py         # Implémente l'architecture du modèle TransformerMultiOutputNILM
-├── evaluate.py           # Script pour évaluer un modèle entraîné sur le jeu de test et calculer les métriques
-├── requirements.txt      # Liste des dépendances Python nécessaires au projet
-└── train.py              # Script d'entraînement du modèle (boucle d'entraînement, journalisation, sauvegarde des checkpoints)
+├── evaluate.py             # Script pour évaluer un modèle entraîné sur le jeu de test et calculer les métriques
+├── requirements.txt        # Liste des dépendances Python nécessaires au projet
+└── train.py                # Script d'entraînement du modèle (boucle d'entraînement, journalisation, sauvegarde des checkpoints)
+
 
  
 
@@ -53,4 +56,5 @@ Dans evaluate.py, définir MODEL_PATH selon le modèle utilisé
 
 ## Dataset 
 Pour le dataset complet, téléchargez-le ici : [Google Drive] (https://drive.google.com/drive/folders/1ceKvKgfcXC0dNSPwXUrFBPwvU_jCzuHD?usp=sharing)
+
 
