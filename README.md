@@ -20,7 +20,7 @@ src/
 ├── evaluate.py             # Script pour évaluer un modèle entraîné sur le jeu de test et calculer les métriques
 ├── requirements.txt        # Liste des dépendances Python nécessaires au projet
 └── train.py                # Script d'entraînement du modèle (boucle d'entraînement, journalisation, sauvegarde des checkpoints)
-
+```
 
 ## Installation
 
@@ -52,6 +52,7 @@ Dans evaluate.py, définir MODEL_PATH selon le modèle utilisé
 
 ## Dataset 
 Pour le dataset complet, téléchargez-le ici : [Google Drive] (https://drive.google.com/drive/folders/1ceKvKgfcXC0dNSPwXUrFBPwvU_jCzuHD?usp=sharing)
+
 
 
 
